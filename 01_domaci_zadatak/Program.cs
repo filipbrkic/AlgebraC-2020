@@ -37,7 +37,7 @@ namespace _01_domaci_zadatak
             Console.WriteLine("Unesite drugi broj:");
             e = float.Parse(Console.ReadLine());
             float f = d - e;
-            Console.WriteLine("Dobili ste broj {0:#.##}.", f);
+            Console.WriteLine("Dobili ste broj {0:F}.", f);
 
             //5.1.2 - Umnožak i kvocijent
             //Program koji traži unos 2 cijela broja i prikazuje 
@@ -51,7 +51,7 @@ namespace _01_domaci_zadatak
             Console.WriteLine("Unesite drugi broj:");
             h = float.Parse(Console.ReadLine());
             float i = g * h;
-            Console.WriteLine("dobili ste broj {0:#.##}.", i);
+            Console.WriteLine("dobili ste broj {0:F}.", i);
 
             Console.WriteLine("\nZadatak 5.1.2 - dijeljenje:");
             float j, k;
