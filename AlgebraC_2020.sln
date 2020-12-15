@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prvi", "Prvi\Prvi.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "drugi", "drugi\drugi.csproj", "{D70EF1EF-BDE8-4FBF-B4BE-380B6784CFE7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pmrvic", "pmrvic", "{34A522ED-66E3-4540-A851-96AFDCD2B6FC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "brkic", "brkic", "{34A522ED-66E3-4540-A851-96AFDCD2B6FC}"
 	ProjectSection(SolutionItems) = preProject
 		ZADACA za 16.12.2020.txt = ZADACA za 16.12.2020.txt
 	EndProjectSection
@@ -106,11 +106,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_02_osoba", "08_02_osoba\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_03_employee_liste", "08_03_employee_liste\08_03_employee_liste.csproj", "{C0C84E40-9B88-418F-87EB-5BE824276E2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_04_Staticka", "08_04_Staticka\08_04_Staticka.csproj", "{BAF65FB1-1589-43BE-90A0-EAE29E48FE42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_04_Staticka", "08_04_Staticka\08_04_Staticka.csproj", "{BAF65FB1-1589-43BE-90A0-EAE29E48FE42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_02_02_reference", "08_02_02_reference\08_02_02_reference.csproj", "{BACD8A3D-BBAB-411C-BA9C-C58D428F8784}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_02_02_reference", "08_02_02_reference\08_02_02_reference.csproj", "{BACD8A3D-BBAB-411C-BA9C-C58D428F8784}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_02_out", "08_02_out\08_02_out.csproj", "{EDB73A2A-0F2F-420F-AF94-F72FA83C2005}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_02_out", "08_02_out\08_02_out.csproj", "{EDB73A2A-0F2F-420F-AF94-F72FA83C2005}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
