@@ -9,17 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prvi", "Prvi\Prvi.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "drugi", "drugi\drugi.csproj", "{D70EF1EF-BDE8-4FBF-B4BE-380B6784CFE7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pmrvic", "pmrvic", "{34A522ED-66E3-4540-A851-96AFDCD2B6FC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "brkic", "brkic", "{34A522ED-66E3-4540-A851-96AFDCD2B6FC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zbroj", "Zbroj\Zbroj.csproj", "{88550BF1-33CC-4AF0-AB45-E3D7F067A08E}"
 EndProject
-<<<<<<< HEAD
-<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_increment_operator", "01_increment_operator\01_increment_operator.csproj", "{499078D0-6DDA-4F76-A2EF-877DC5545954}"
-=======
-<<<<<<< HEAD
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_increment_operator", "01_increment_operator\01_increment_operator.csproj", "{499078D0-6DDA-4F76-A2EF-877DC5545954}"
->>>>>>> c2b944259872a489e88adca8da4ed6c6a8c96dc4
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_varijable", "01_varijable\01_varijable.csproj", "{7A42368D-F311-4C3B-B537-A8034C8495B9}"
 EndProject
@@ -27,27 +21,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_unos_broja", "01_unos_br
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_operatori", "01_operatori\01_operatori.csproj", "{05804718-F6D7-4016-AA28-6F585F0208C3}"
 EndProject
-<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_domaci_zadatak", "01_domaci_zadatak\01_domaci_zadatak.csproj", "{288C5C8B-90C0-44A0-B92F-DA5CA0FA8A7B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E1CB9655-0B61-4225-A921-CB7715221164}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
-=======
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_domaci_zadatak", "01_domaci_zadatak\01_domaci_zadatak.csproj", "{288C5C8B-90C0-44A0-B92F-DA5CA0FA8A7B}"
-=======
-=======
->>>>>>> 2a06ebbbfaaba99a30fd9034a4eec1a37f230c86
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_increment_operator", "01_increment_operator\01_increment_operator.csproj", "{499078D0-6DDA-4F76-A2EF-877DC5545954}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_varijable", "01_varijable\01_varijable.csproj", "{7A42368D-F311-4C3B-B537-A8034C8495B9}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_unos_broja", "01_unos_broja\01_unos_broja.csproj", "{2439C09C-2CAF-4EF4-8E1F-AEAED5BBB5BD}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_operatori", "01_operatori\01_operatori.csproj", "{05804718-F6D7-4016-AA28-6F585F0208C3}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_domaci_zadatak", "01_domaci_zadatak\01_domaci_zadatak.csproj", "{288C5C8B-90C0-44A0-B92F-DA5CA0FA8A7B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_umnozak_kvocijent", "01_umnozak_kvocijent\01_umnozak_kvocijent.csproj", "{DD3619E7-0F63-47E9-9925-890360073ECD}"
 EndProject
@@ -99,19 +78,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "alg-06-Nizovi", "alg-06-Niz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_nizovi", "06_nizovi\06_nizovi.csproj", "{30C6451C-CE9E-4CEA-9B06-FEC74986EF4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_niz_max", "06_niz_max\06_niz_max.csproj", "{8232BA2C-E30D-4B53-8B25-40D351373344}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_niz_max", "06_niz_max\06_niz_max.csproj", "{8232BA2C-E30D-4B53-8B25-40D351373344}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_niz_zamjena", "06_niz_zamjena\06_niz_zamjena.csproj", "{F2378806-91FB-4CD2-9E6E-BC35BD8BCBD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_niz_zamjena", "06_niz_zamjena\06_niz_zamjena.csproj", "{F2378806-91FB-4CD2-9E6E-BC35BD8BCBD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_02_01_arraylist", "06_02_01_arraylist\06_02_01_arraylist.csproj", "{9EE64ADE-09A0-42A1-ACC9-1C970AE35D82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_02_01_arraylist", "06_02_01_arraylist\06_02_01_arraylist.csproj", "{9EE64ADE-09A0-42A1-ACC9-1C970AE35D82}"
 EndProject
-<<<<<<< HEAD
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_03_unos_ocjena", "05_03_unos_ocjena\05_03_unos_ocjena.csproj", "{411C97E7-D900-498D-97D2-A2860F8D6D1D}"
->>>>>>> 75fd60e93abbd39679ea06f8f29585eb457a8bbd
->>>>>>> c2b944259872a489e88adca8da4ed6c6a8c96dc4
-=======
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_02_List", "06_02_List\06_02_List.csproj", "{AAC9EA1D-EF41-4334-84C2-CC2661B0F1A9}"
->>>>>>> 2a06ebbbfaaba99a30fd9034a4eec1a37f230c86
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_02_List", "06_02_List\06_02_List.csproj", "{AAC9EA1D-EF41-4334-84C2-CC2661B0F1A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zadaca za 16.12.2020.", "Zadaca za 16.12.2020.", "{3E16B235-CB04-4EAF-B689-D3336225ED98}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadaca", "Zadaca\Zadaca.csproj", "{3623C545-71F4-45C2-B14D-8C3B2F23D512}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -259,6 +239,10 @@ Global
 		{AAC9EA1D-EF41-4334-84C2-CC2661B0F1A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAC9EA1D-EF41-4334-84C2-CC2661B0F1A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAC9EA1D-EF41-4334-84C2-CC2661B0F1A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3623C545-71F4-45C2-B14D-8C3B2F23D512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3623C545-71F4-45C2-B14D-8C3B2F23D512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3623C545-71F4-45C2-B14D-8C3B2F23D512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3623C545-71F4-45C2-B14D-8C3B2F23D512}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -302,6 +286,8 @@ Global
 		{F2378806-91FB-4CD2-9E6E-BC35BD8BCBD0} = {3FB39A07-39C5-4210-88EA-523DE7E20335}
 		{9EE64ADE-09A0-42A1-ACC9-1C970AE35D82} = {3FB39A07-39C5-4210-88EA-523DE7E20335}
 		{AAC9EA1D-EF41-4334-84C2-CC2661B0F1A9} = {3FB39A07-39C5-4210-88EA-523DE7E20335}
+		{3E16B235-CB04-4EAF-B689-D3336225ED98} = {34A522ED-66E3-4540-A851-96AFDCD2B6FC}
+		{3623C545-71F4-45C2-B14D-8C3B2F23D512} = {3E16B235-CB04-4EAF-B689-D3336225ED98}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2BB20FC2-F569-43F1-A2ED-1EDE6A62F22D}
