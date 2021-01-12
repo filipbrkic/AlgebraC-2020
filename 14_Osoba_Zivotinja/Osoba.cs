@@ -71,9 +71,9 @@ namespace _14_Osoba_Zivotinja
 
         {
 
-            Dispose(true);
+           Dispose(true);
 
-            GC.SuppressFinalize(this);
+           GC.SuppressFinalize(this);
 
         }
 

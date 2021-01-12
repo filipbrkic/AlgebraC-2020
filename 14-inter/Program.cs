@@ -8,26 +8,28 @@ namespace _14_inter
         {
             Console.WriteLine("Pointovi i interfacei");
 
-            Point p1 = new Point(3,5) ;
+            Program.testiranje();
 
-            Console.WriteLine("Point "+p1);
+            /*     Point p1 = new Point(3,5) ;
 
-            p1.PrintPoint();
+               Console.WriteLine("Point "+p1);
 
-            p1.Mojaboja=p1.setBoja("Zelena");
+               p1.PrintPoint();
 
-            p1.PrintPoint();
+               p1.Mojaboja=p1.setBoja("Zelena");
 
-            p1.Mojaboja = p1.setBoja("Black");
+               p1.PrintPoint();
 
-            p1.PrintPoint();
+               p1.Mojaboja = p1.setBoja("Black");
 
-            p1.PomakniMeZaX(7);
-            p1.PomakniMeZaY(5);
+               p1.PrintPoint();
 
-            p1.PrintPoint();  // nakon ove linije se p1 vise ne spominje i mozemo da unistiti (dispose) ili cekati garbage collector
+               p1.PomakniMeZaX(7);
+               p1.PomakniMeZaY(5);
 
-            p1.Dispose();
+               p1.PrintPoint();  // nakon ove linije se p1 vise ne spominje i mozemo da unistiti (dispose) ili cekati garbage collector
+
+               p1.Dispose(); */
 
 
             Console.WriteLine("Memory used before collection:       {0:N0}",
@@ -68,6 +70,30 @@ namespace _14_inter
 
             Console.ReadKey();
 
+        }
+
+        private static void testiranje()
+        {
+            Point p1 = new Point(3, 5);
+
+            Console.WriteLine("Point " + p1);
+
+            p1.PrintPoint();
+
+            p1.Mojaboja = p1.setBoja("Zelena");
+
+            p1.PrintPoint();
+
+            p1.Mojaboja = p1.setBoja("Black");
+
+            p1.PrintPoint();
+
+            p1.PomakniMeZaX(7);
+            p1.PomakniMeZaY(5);
+
+            p1.PrintPoint();  // nakon ove linije se p1 vise ne spominje i mozemo da unistiti (dispose) ili cekati garbage collector
+
+           // p1.Dispose();
         }
     }
 }
