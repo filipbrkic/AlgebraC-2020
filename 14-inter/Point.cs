@@ -61,7 +61,7 @@ namespace _14_inter
 
         public void Dispose()
         {
-         // GC.SuppressFinalize(this);
+        // GC.SuppressFinalize(this);
 
         }
 
