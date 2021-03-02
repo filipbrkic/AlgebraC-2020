@@ -54,14 +54,15 @@ namespace MVC2021.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price")] Movie movie)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(movie);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Create");
+                //return RedirectToAction(nameof(Index)); // Moze i ovako
             }
             return View(movie);
         }
@@ -86,7 +87,7 @@ namespace MVC2021.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        [ValidateAntiForgeryToken]  // ovo se zove annotation
         public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,Genre,Price")] Movie movie)
         {
             if (id != movie.Id)
