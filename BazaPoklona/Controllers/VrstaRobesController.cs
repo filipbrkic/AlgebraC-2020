@@ -29,7 +29,16 @@ namespace BazaPoklona.Controllers
         {
             return View(await _context.VrstaRobes.ToListAsync());
         }
+        // GET: VrstaRobes
+        public async Task<IActionResult> OstvareniPrometKamelija()
+        {
+            var promet = await _context.OstvareniPromet
+                           .FromSqlRaw("SELECT max(p.Naziv) as Naziv, max(v.Naziv) as VrstaRobe, sum(p.Cijena) AS UkupnoLovePoVrstiRobe FROM dbo.Poklon p INNER JOIN dbo.VrstaRobe v ON p.VrstaRobe = v.Id GROUP BY p.VrstaRobe")
+                           .ToListAsync();
+            return View(promet);
 
+
+        }
         // GET: VrstaRobes
         public async Task<IActionResult> OstvareniPromet()
         {            
@@ -49,6 +58,54 @@ namespace BazaPoklona.Controllers
             return View(results);            
 
         }
+        // GET: VrstaRobes
+        public async Task<IActionResult> OstvareniPromet2()
+        {
+            var poklons = await _context.Poklons.ToListAsync();
+
+            var query = poklons.GroupBy(
+                x => x.VrstaRobe,
+                (key, data) => new Poklon
+                {
+                    VrstaRobe = key,
+                    Naziv = data.Max(x => x.Naziv),
+                    Cijena = data.Sum(x => x.Cijena),
+                }
+                )
+                .OrderBy(x => x.VrstaRobe);
+
+            return View(query);
+
+        }
+        // GET: VrstaRobes
+        public async Task<IActionResult> OstvareniPrometByJasmin()
+        {
+            var promet = _context.Poklons
+                .Select(p => new { p.Naziv, p.VrstaRobe, p.Cijena })
+                .GroupBy(p => p.VrstaRobe)
+               // .Sum(p => p.Cijena)
+               
+              //  .GroupBy(p => p.VrstaRobe)
+                //TODO podatke iz tablice vrstarobe ili Poklon???
+                .ToListAsync();
+            return View(promet);
+        }
+        // GET: VrstaRobes
+        public async Task<IActionResult> OstvareniPrometByJurica()
+        {
+            //TODO
+
+            /* ZA PROIZVOLJAN SQL IZVRSITI UPIT TE MAPIRATI REZULTATE NA ODGOVARAJUCI OBJEKT    */
+
+               var promet = _context.OstvareniPrometViewModels.FromSqlRaw(  
+                @"SELECT max(dbo.Poklon.Naziv) as NazivRobe, max(dbo.VrstaRobe.Naziv) AS VrstaRobe, sum(Cijena) AS UkupnoLovePoVrstiRobe FROM dbo.Poklon
+JOIN dbo.VrstaRobe ON dbo.Poklon.VrstaRobe = dbo.VrstaRobe.Id
+ GROUP BY VrstaRobe");
+            return View(promet);
+
+
+        }
+
 
         // GET: VrstaRobes/Details/5
         public async Task<IActionResult> Details(int? id)
